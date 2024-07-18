@@ -10,7 +10,7 @@
       </div>
       <div v-else class="welcome-message">
         <h4 style="color: black;">Welcome to the Task Manager!</h4>
-        <p style="color: black;">Please log in or sign up to manage your tasks.</p>
+        <p style="color: black;">please sign up then login.</p>
       </div>
     </div>
   </template>
@@ -57,12 +57,12 @@
   </script>
   <style scoped>
   .task-tracker-container {
-    color: #FFFFFF;
+    color: #d90e0e;
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 8px;
-    background-color: #8A99A8;
+    background-color: #51a0ef;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
   
@@ -78,10 +78,10 @@
   
   .welcome-message {
     text-align: center;
-    color: #555;
+    color: #67f087;
     padding: 20px;
-    background: #A2ADB9;
+    background: #0c76e8;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(1, 1, 1, 1);
+    box-shadow: 0 4px 12px rgb(234, 71, 71);
   }
   </style>

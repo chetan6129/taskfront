@@ -67,15 +67,15 @@
     max-width: 400px;
     margin: 100px auto;
     padding: 30px;
-    background-color: #23292F;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #75b1ed;
+    box-shadow: 0 4px 8px rgba(189, 178, 248, 0.1);
     border-radius: 10px;
     text-align: center;
   }
   
   h3 {
     margin-bottom: 20px;
-    color: #333;
+    color: #d2a1a1;
   }
   
   .signin-form {
@@ -102,8 +102,8 @@
   .submit-button {
     padding: 12px;
     font-size: 16px;
-    color: #fff;
-    background-color: #3d4752;
+    color: #fefbfd;
+    background-color: #fca3e9;
     border: none;
     border-radius: 5px;
     cursor: pointer;

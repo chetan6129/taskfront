@@ -35,16 +35,13 @@
   </script>
   
   <style scoped>
-  h4 {
-    color: white;
-  }
   .task-form-container {
       width: 100%;
       max-width: 400px;
       margin: 0 auto;
       padding: 20px;
-      background-color: #23292F;
-      box-shadow: 0 4px 6px rgba(1.5, 1.5, 1.5, 1.5);
+      background-color: #f9f9f9;
+      box-shadow: 0 4px 6px rgba(217, 19, 48, 0.1);
       border-radius: 10px;
       text-align: center;
   }
@@ -61,7 +58,6 @@
       border: 1px solid #ccc;
       border-radius: 5px;
       transition: border-color 0.3s ease;
-      background-color: #ADB8C2;
   }
   
   .task-input:focus {
@@ -72,8 +68,8 @@
   .submit-button {
       padding: 10px;
       font-size: 16px;
-      color: #fff;
-      background-color: #3D4752;
+      color: #113ddc;
+      background-color: #007BFF;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -81,6 +77,6 @@
   }
   
   .submit-button:hover {
-      background-color: #687A8D;
+      background-color: #e92431;
   }
   </style>

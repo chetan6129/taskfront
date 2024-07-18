@@ -1,4 +1,5 @@
 <template>
+  
     <div class="signup-form-container">
       <h3 style="color: aliceblue">Sign Up</h3>
       <form @submit.prevent="submit" class="signup-form">
@@ -23,7 +24,12 @@
           class="signup-input"
           required
         />
-        <button type="submit" class="submit-button">Submit</button>
+        
+        <button type="submit" class="submit-button" data-toggle="submit" data-placement="top" title="to create click on">
+    Submit 
+  </button>
+        
+        
       </form>
     </div>
   </template>
@@ -33,6 +39,8 @@
   // import { mapActions } from 'vuex';
   import { useStore } from "vuex";
   import { useRouter } from "vue-router";
+  
+  
   
   export default {
     name: "SignUp",
@@ -83,15 +91,15 @@
     max-width: 400px;
     margin: 100px auto;
     padding: 30px;
-    background-color: #23292f;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #65acf3;
+    box-shadow: 0 4px 8px rgba(221, 88, 88, 0.1);
     border-radius: 10px;
     text-align: center;
   }
   
   h3 {
     margin-bottom: 20px;
-    color: #333;
+    color: #f55b5b;
   }
   
   .signup-form {
@@ -119,7 +127,7 @@
     padding: 12px;
     font-size: 16px;
     color: #fff;
-    background-color: #3d4752;
+    background-color: #fa99e8;
     border: none;
     border-radius: 5px;
     cursor: pointer;
